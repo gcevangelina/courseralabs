@@ -17,3 +17,13 @@ function checkCountValue() {
         alert("Tu publicación de Instagram ganó 20 seguidores. ¡Sigue así!");
     }
 }
+
+function restartCount() {
+    count = 0;
+    displayCount();
+    displayCountRestarted();
+}
+
+function displayCountRestarted() {
+    alert("Count was restarted");
+}
